@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'bennett-homenventory'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_06BDE4034F944C5ABAF499DA2ABE0E96 }}
+          publish-profile: ${{ AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: '*.war'
